@@ -63,3 +63,15 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+@media screen and (max-width: 768px){
+  #first {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  #first{
+    width: 60%;
+  }
+}
